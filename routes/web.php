@@ -16,3 +16,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+// Route::apiResource('api/books', 'Api\BookController'); // configuraciôn que deberîa estar en api.php
